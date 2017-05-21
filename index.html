@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Project site</title>
+    <!-- main stylesheet -->
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+    <!-- hover stylesheet -->
+	<link href="css/hover.css" rel="stylesheet" type="text/css">
+    <!-- font stylesheet -->
+	<link href="css/font-stylesheet.css" rel="stylesheet" type="text/css">
+    <!-- media-query stylesheet -->
+    <link href="css/media-query.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+	</script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+	</script>
+    
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" id="navbar-container">
+			<!-- nav start -->
+			<nav class="nav navbar-fixed-top navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button class="navbar-toggle" data-target="#main-menu" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html" id="logo"><img src="images/brand.png"></a>
+					</div><!-- End Navbar-head-->
+					<div class="navbar-collapse collapse" id="main-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active">
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="courses.html">Courses</a>
+							</li>
+							<li>
+								<a href="index.html#blog-container">About</a>
+							</li>
+							<li>
+								<a href="index.html#blog-container">Blog</a>
+							</li>
+							<li>
+								<a href="index.html#recruitContainer">Recruiters</a>
+							</li>
+							<li>
+								<a href="#footer-container">contact</a>
+							</li>
+							<li id="user">
+								<a href="#">Log in / sign up</a>
+							</li>
+						</ul>
+					</div><!-- End Main Menu End-->
+				</div><!-- Container-fluid End-->
+			</nav><!-- Nav End-->
+		</div><!-- navbar-container end -->
+        <div class="row" id="banner-wrapper">
+            <div class="col-xs-12" id="banner">
+                <h1>Find your new road for your better career.</h1>
+                <div class="button-group" role="group" aria-label="...">
+                    <button type="button" class="btn" id="banner-first-btn" data-toggle="modal" data-target="#login-modal">LOG IN</button>
+                    <button type="button" class="btn" id="banner-second-btn" data-toggle="modal" data-target="#signup-modal">SIGN UP</button>
+                </div>
+                <img class="img-responsive" id="banner-img" src="images/banner-bg.jpg">
+            </div><!-- banner end -->
+        </div><!-- banner-wrapper end -->
+        <div class="row" id="banner-bottom-wrapper">
+            <div class="col-xs-12" id="banner-bottom-textarea">
+                <h1>Build up your career in the most beautiful way</h1>
+                <p>We are the unique set-up, that is ready to challenge and knock out such a global problem as unemployment. Our company gladly helps those, who are ready to learn, to 
+develop and to gain new experience. company unifies people all over the world. Everything we do, we do it for YOU - totally gratuitously and with great enjoyment.
+ We work so that you could work!</p>
+            </div>
+            <!-- banner-bottom-textarea end -->
+            <div class="container" id="banner-bottom-section1">
+                <div class="col-md-4" id="sec">
+                    <img class="img-responsive" src="images/banner-bottom-img1.jpg">
+                    <h3>Free stydy material</h3>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, 
+                    sed do eiusmod tempor incid idunt ut labor.</p>
+                </div>
+                <div class="col-md-4" id="sec">
+                    <img class="img-responsive" src="images/banner-bottom-img2.jpg">
+                    <h3>Small Groups</h3>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, 
+                    sed do eiusmod tempor incid idunt ut labor.</p>
+                </div>
+                <div class="col-md-4" id="sec">
+                    <img class="img-responsive" src="images/banner-bottom-img3.jpg">
+                    <h3>24x7 online chat support</h3>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, 
+                    sed do eiusmod tempor incid idunt ut labor.</p>
+                </div>
+            </div><!-- banner-bottom-section1 end -->
+            <div class="container-fluid" id="banner-bottom-sec2-wrapper">
+            <div class="container" id="banner-bottom-sec2">
+                <div class="col-md-4" id="sec2">
+                    <h4><span>Y</span>Flexible Class timing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nam enim velit, pretium porta nisi sit amet, suscipit 
+                    tristique quam.</p>
+                    <a href="#" data-toggle="modal" data-target="#timing-modal">Learn More<span>V</span></a>
+                </div>
+                <div class="col-md-4" id="sec2">
+                    <h4><span>r</span>Hassle free payment</h4>
+                    <p>Pellentesque hendrerit aliquam ligula vitae facilisis. Aen
+                    ean dapibus nisi sem, vitae tincidunt justo ullamcorper
+                    vitae.</p>
+                    <a href="#" data-toggle="modal" data-target="#payment-modal">Learn More<span>V</span></a>
+                </div>
+                <div class="col-md-4" id="sec2">
+                    <h4><span>\</span>Online and offline certificate</h4>
+                    <p>Cras vulputate bibendum orci sed scelerisque. Suspendi-
+                    sse nisl magna, aliquet sit amet aliquet vitae, dapibus in
+                    ante.</p>
+                    <a href="#" data-toggle="modal" data-target="#certificate-modal">Learn More<span>V</span></a>
+                </div>
+                <div class="col-md-4" id="sec2">
+                    <h4><span>&#xe057;</span>Best Facalty</h4>
+                    <p>Quisque nisl eros, mollis quis ultrices id, scelerisque eget
+                    nisi. Nunc sit amet nunc eu tortor euismod gravida at sit 
+                    amet quam.</p>
+                    <a href="#" data-toggle="modal" data-target="#facalty-modal">Learn More<span>V</span></a>
+                </div>
+                <div class="col-md-4" id="sec2">
+                    <h4><span>I</span>100% placement assistance</h4>
+                    <p>Nullam pretium enim tempus tincidunt varius. Vestibulu
+                    m velit augue, commodo ac placerat et, viverra id mi.</p>
+                    <a href="#" data-toggle="modal" data-target="#placement-modal">Learn More<span>V</span></a>
+                </div>
+                <div class="col-md-4" id="sec2">
+                    <h4><span>#</span>Live Projects for you profile</h4>
+                    <p>Cras aliquam, lacus sed venenatis accumsan, nunc lorem 
+                    sodales urna, ac fringilla leo metus interdum risus.</p>
+                    <a href="#" data-toggle="modal" data-target="#project-modal">Learn More<span>V</span></a>
+                </div>
+            </div><!-- banner-bottom-sec2 end -->
+            </div><!-- banner-bottom-sec2-wrapper end -->
+        </div><!-- banner-bottom-wrapper end -->
+        <div class="row" id="app-section-container">
+            <div class="col-md-4 col-xs-12" id="app-left">
+                <img class="img-responsive" src="images/app.png">
+            </div>
+            <!-- app-left end -->
+            <div class="col-md-8" id="app-right-container">
+                <h1>Discover the advantages</h1>
+                <p>Lorem ipsum dolor sit amet conse ctetur adiisicing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                aliquip.</p>
+                <ul>
+                    <li><a href="#"><span id="app-section-icon">&#xe007;</span>Lorem ipsum dolor sit ame</a></li>
+                    <li><a href="#"><span id="app-section-icon">&#xe00d;</span>Ut enim ad minim veniam</a></li>
+                    <li><a href="#"><span id="app-section-icon">x</span>Excepteur sint occaecat cupidatat non proident</a></li>
+                    <li><a href="#"><span id="app-section-icon">*</span>Sed ut perspiciatis unde omnis iste</a></li>
+                </ul>
+            </div>
+            <!-- app-right-container end -->
+        </div>
+        <!-- app-section-container end -->
+        <div class="row" id="three-icon-sec-container">
+        <div class="col-md-4 col-xs-12" id="three-icon-sec1">
+            <h1 id="three-icon-sec-icon">&#xe008;</h1>
+            <h3 id="three-icon-sec-heading">Sed ut perspiciatis unde omnis iste</h3>
+            <p id="three-icon-sec-p">At vero eos et accusamus et iusto odio dignissimos 
+ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+        </div>
+        <!-- three-icon-sec1 end -->
+        <div class="col-md-4 col-xs-12" id="three-icon-sec2">
+            <h1 id="three-icon-sec-icon">&#xe00e;</h1>
+            <h3 id="three-icon-sec-heading">Sed ut perspiciatis unde omnis iste</h3>
+            <p id="three-icon-sec-p">But in certain circumstances and owing to the 
+claims of duty or the obligations of business. Aenean lacinia varius odio, sed tristique quam feugiat vitae</p>
+        </div>
+        <!-- three-icon-sec2 end -->
+        <div class="col-md-4 col-xs-12" id="three-icon-sec3">
+            <h1 id="three-icon-sec-icon">X</h1>
+            <h3 id="three-icon-sec-heading">Sed ut perspiciatis unde omnis iste</h3>
+            <p id="three-icon-sec-p">On the other hand, we denounce with righteous india
+gnation and dislike men who are so beguiled and 
+demoralized by the charms</p>
+        </div>
+        <!-- three-icon-sec3 end -->
+        </div><!-- three-icon-sec-container end -->
+        <div class="row" id="blog-container">
+            <div class="col-xs-12" id="blog-heading">
+                    <h1>From the Blog</h1>
+                </div>
+                <!-- blog-heading end -->
+                <div class="container-fluid" id="blog-body">
+                    <div class="col-md-4 col-xs-12" id="blog-sec">
+                        <img class="img-responsive" src="images/blog-img-1.jpg">
+                        <h3 id="blog-inner-heading">Lorem ipsum dolor sit amet</h3>
+                        <p id="blog-inner-paragraph">
+                            The 20th course of the up-grade program has just finished and 
+87 participants from 49 countries ...
+                        </p>
+                        <div class="col-xs-6" id="blog-name">
+                            <a href="#" id="blog-anchor"><span id="blog-icon">&#xe056;</span> Sibroop Talukdar</a>
+                        </div>
+                        <!-- blog-name end -->
+                        <div class="col-xs-6" id="blog-date">
+                            <a href="#" id="blog-anchor"><span id="blog-icon">&#xe051;</span> 1st December 2016</a>
+                        </div>
+                        <!-- blog-date end -->
+                    </div>
+                    <!-- blog-sec end -->
+                    <div class="container-fluid" id="blog-body">
+                    <div class="col-md-4 col-xs-12" id="blog-sec">
+                        <img class="img-responsive" src="images/blog-img-2.jpg">
+                        <h3 id="blog-inner-heading">Nunc quis lacus nec mi</h3>
+                        <p id="blog-inner-paragraph">
+                           Since September 3 we have been waiting for our Ukrainian 
+guests. Our new office was opened in ...
+                        </p>
+                        <div class="col-xs-6" id="blog-name">
+                            <a href="#" id="blog-anchor"><span id="blog-icon">&#xe056;</span> Sibroop Talukdar</a>
+                        </div>
+                        <!-- blog-name end -->
+                        <div class="col-xs-6" id="blog-date">
+                            <a href="#" id="blog-anchor"><span id="blog-icon">&#xe051;</span> 1st December 2016</a>
+                        </div>
+                        <!-- blog-date end -->
+                    </div>
+                    <!-- blog-sec end -->
+                    <div class="container-fluid" id="blog-body">
+                    <div class="col-md-4 col-xs-12" id="blog-sec">
+                        <img class="img-responsive" src="images/blog-img-3.jpg">
+                        <h3 id="blog-inner-heading">Vestibulum tempor risus nec ante sollicitudin</h3>
+                        <p id="blog-inner-paragraph">
+                            This year fall company business-school will join ambitious, purpo
+seful people in New York. You can ...
+                        </p>
+                        <div class="col-xs-6" id="blog-name">
+                            <a href="#" id="blog-anchor"><span id="blog-icon">&#xe056;</span> Sibroop Talukdar</a>
+                        </div>
+                        <!-- blog-name end -->
+                        <div class="col-xs-6" id="blog-date">
+                            <a href="#" id="blog-anchor"><span id="blog-icon">&#xe051;</span> 1st December 2016</a>
+                        </div>
+                        <!-- blog-date end -->
+                    </div>
+                    <!-- blog-sec end -->
+                    <div class="col-xs-12" id="blog-button-container">
+                        <a href="#" id="blog-button">
+                            See More Blog
+                        </a>
+                        <!-- blog-button end -->
+                    </div>
+                    <!-- blog-button-container end -->
+                </div>
+                <!-- blog-body end -->
+        </div>
+        <!-- blog-container end -->
+        <div class="row" id="blogBottomContainer">
+            <div class="col-md-7 col-xs-12" id="blogBottomLeft">
+                <h3 id="blogBottomLeftHeading">There are many variations of passages</h3>
+                <p id="blogBottomLeftPara">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a 
+piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+                <div class="col-xs-12" id="blogBottomSec">
+                   <ul>
+                    <li class="col-xs-3">
+                        <p id="blog-bottom-section-icon"><span>&#xe04e;</span></p>
+                        <p id="blog-bottom-section-number">21794</p>
+                        <p id="blog-bottom-section-text">STUDENTS</p>
+                    </li>
+                     <li class="col-xs-3">
+                        <p id="blog-bottom-section-icon"><span>&#xe001;</span></p>
+                        <p id="blog-bottom-section-number">959</p>
+                        <p id="blog-bottom-section-text">RECRUITERS</p>
+                    </li>
+                     <li class="col-xs-3">
+                        <p id="blog-bottom-section-icon"><span>&#xe048;</span></p>
+                        <p id="blog-bottom-section-number">1309</p>
+                        <p id="blog-bottom-section-text">PROFESSIONALS</p>
+                    </li>
+                     <li class="col-xs-3">
+                        <p id="blog-bottom-section-icon"><span>&#xe02a;</span></p>
+                        <p id="blog-bottom-section-number">121</p>
+                        <p id="blog-bottom-section-text">BRUNCHES</p>
+                    </li>
+                    
+                </ul>
+                
+                </div>
+                <!-- blogBottomSec end -->
+            </div>
+            <!-- blogBottomLeft end -->
+            <div class="col-md-5 col-xs-12" id="blogBottomRight">
+                <img src="images/blog-bottom-img.jpg" class="img-responsive" />
+            </div>
+            <!-- blogBottomRight end -->
+        </div>
+        <!-- bolgBottomContainer end -->
+        <div class="row" id="recruitContainer">
+            <h1 id="recruitHeading">TOP RECRUITERS</h1>
+            </h1>
+            <div class="col-xs-12" id="recruitSec">
+                <ul>
+                    <li><img class="img-responsive" src="images/recruiter1.png"></li>
+                    <li><img class="img-responsive" src="images/recruiter2.png"></li>
+                    <li><img class="img-responsive" src="images/recruiter3.png"></li>
+                    <li><img class="img-responsive" src="images/recruiter4.png"></li>
+                    <li><img class="img-responsive" src="images/recruiter5.png"></li>
+                </ul>
+            </div>
+            <!-- recruitSec end -->
+            <div class="col-xs-12" id="recruitSec">
+                <ul>
+                    <li><img class="img-responsive" src="images/recruiter6.png"></li>
+                    <li><img class="img-responsive" src="images/recruiter7.png"></li>
+                    <li><img class="img-responsive" src="images/recruiter8.png"></li>
+                    <li><img class="img-responsive" src="images/recruiter9.png"></li>
+                    <li><img class="img-responsive" src="images/recruiter10.png"></li>
+                </ul>
+            </div>
+            <!-- recruitSec end -->
+        </div>
+        <!-- recruitContainer end -->
+        <div class="row" id="review-container">
+            <h1>STUDENTS REVIEW</h1>        
+            <div class="container" id="carousel">
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox" id="carousel-container">
+                    <div class="item active">
+                        <img src="images/student1.png" id="carousel-img">
+                                    <h2 id="review-name">Donny E. Rivera</h2>
+                                    <p id="review-post"><small>MANEGER ABC PRIVATE LIMITED</small></p>
+                                    <p id="review-text">Maecenas a convallis massa. Aenean tempus erat ut quam elementum faucibus. Fusce pretium congue accumsan.
+                                    Mauris ornare ornare orci quis fringilla. Mauris vel enim eu nisl rutrum pharetra ac a tellus.</p>
+                    </div>
+                    <!-- active item end -->
+                    <div class="item">
+                        <img src="images/student2.png" id="carousel-img">
+                                    <h2 id="review-name">Edwin J. Ryman</h2>
+                                    <p id="review-post"><small>XYZ MARKETING PRIVATE LIMITED</small></p>
+                                    <p id="review-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou
+                r, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure 
+                there isn't anything embarrassing hidden in the middle of text.</p>
+                    </div>
+                    <!-- item end -->
+                    <div class="item">
+                    <img src="images/student3.png" id="carousel-img">
+                                    <h2 id="review-name">Robert K. Eisner</h2>
+                                    <p id="review-post"><small>DESIGNER MNP DESIGNERS (P) LTD.</small></p>
+                                    <p id="review-text">Maecenas euismod quis justo in consectetur. Etiam a ligula sed purus pretium malesuada quis sit amet metus. In sagittis vehicula mi, ut 
+                                        facilisis nisl vehicula nec. Praesent eu diam libero. Donec et velit leo. Fusce auctor non tortor et lobortis. Phasellus gravida commodo
+                                    nisi.</p>
+                    </div>
+                    <!-- item end -->
+                    </div>
+                    <!-- carousel-container end -->
+                </div>
+                <!-- myCarousel end -->
+                </div>
+                <!-- carusel end -->
+        </div>
+        <!-- review-container end -->
+        <div class="row" id="footer-container">
+            <h1>GET IN TOUCH</h1>
+            <p id="address">48/5 Beleghata Main Road Kolkata- 700 010</p>
+            <h2><span><big>&#xe030;</big></span>+91 90625 15548 / +91 90512 22891</h2>
+            <p>sibrooptalukdar.st@gmail.com</p>
+            <div id="social-links">
+                <h3>Our Social Links</h3>
+                <ul>
+                    <li><a href="#">F</a></li>
+                    <li><a href="#">T</a></li>
+                    <li><a href="#">L</a></li>
+                    <li><a href="#">Y</a></li>
+                    <li><a href="#">B</a></li>
+                    <li><a href="#">G</a></li>
+                    <li><a href="#">A</a></li>
+                    <li><a href="#">C</a></li>
+                </ul>
+            </div>
+            <!-- social-links end -->
+        </div>
+        <!-- footer-container end -->
+        <div class="row" id="copyright">
+            <small>All right resived by xyz @2013<small>
+        </div>
+        <!-- copyright end -->
+        <!--timing-modal -->
+        <div class="modal fade" id="timing-modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content" id="modal-container">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" id="modal-heading">Flexible Class timing</h4>
+                    </div>
+                    <!-- modal header end -->
+                    <div class="modal-body" id="modal-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim velit, pretium porta nisi sit amet,
+                             suscipit tristique quam. Sit habemus apeirian consetetur te, ei quod clita aliquam ius. Et vim 
+                             ullum essent fabellas.
+                        </p>
+                    </div>
+                    <!-- modal-text end -->
+                    <div class="modal-footer" id="modal-footer">
+                        <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                    </div>
+                    <!-- modal-footer end -->
+                </div>
+                <!-- modal-container end -->
+            </div>
+            <!-- modal-dialog end -->
+        </div>
+        <!-- timing-modal end -->
+
+        <!-- payment-modal -->
+  <div class="modal fade" id="payment-modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" id="modal-container">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id="modal-heading">Hassle free payment</h4>
+        </div>
+        <!-- modal-header end -->
+        <div class="modal-body" id="modal-text">
+          <p>Pellentesque hendrerit aliquam ligula vitae facilisis. Aen ean dapibus nisi sem, vitae tincidunt justo ullamcorper vitae. Lorem ipsum dolor sit amet, sumo dolor mei at, sea zril eloquentiam ad, mel ne iuvaret detracto. Est cu everti principes, sed amet intellegat id. Iusto aliquam senserit et his, no vix scripta labores, nibh scripta ea sea. Ex vis bonorum invenire dissentias. Mutat voluptatum vix in. Delenit nominati ius an, ne mea fuisset electram dissentiet.</p>
+        </div>
+        <!-- modal-text end -->
+        <div class="modal-footer" id="modal-footer">
+          <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+        </div>
+        <!-- modal-footer end -->
+      </div>
+      <!-- modal-container end -->
+    </div>
+    <!-- modal-dialog end -->
+  </div>
+  <!-- payment-modal end -->
+  <!--certificate-modal -->
+        <div class="modal fade" id="certificate-modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content" id="modal-container">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" id="modal-heading">Online and offline certificate</h4>
+                    </div>
+                    <!-- modal header end -->
+                    <div class="modal-body" id="modal-text">
+                        <p>
+                            Cras vulputate bibendum orci sed scelerisque. Suspendi- sse nisl magna, aliquet sit amet aliquet vitae, dapibus in ante. 
+                            An omnium iisque legimus duo. Ad accusam singulis definiebas eam, mea ut latine salutandi. Ei mei utroque noluisse 
+                            rationibus, ne duo eruditi argumentum. Ei sea esse interesset.
+                        </p>
+                    </div>
+                    <!-- modal-text end -->
+                    <div class="modal-footer" id="modal-footer">
+                        <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                    </div>
+                    <!-- modal-footer end -->
+                </div>
+                <!-- modal-container end -->
+            </div>
+            <!-- modal-dialog end -->
+        </div>
+        <!-- certificate-modal end -->
+
+        <!-- facalty-modal -->
+  <div class="modal fade" id="facalty-modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" id="modal-container">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id="modal-heading">Best Facalty</h4>
+        </div>
+        <!-- modal-header end -->
+        <div class="modal-body" id="modal-text">
+          <p>Quisque nisl eros, mollis quis ultrices id, scelerisque eget nisi. Nunc sit amet nunc eu tortor euismod gravida at 
+              sit amet quam.Ei aliquip scaevola sea, vis eu eruditi interesset. Paulo ignota inciderint an has, choro vituperata
+               honestatis ius no, te eos illud tation moderatius.
+            </p>
+        </div>
+        <!-- modal-text end -->
+        <div class="modal-footer" id="modal-footer">
+          <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+        </div>
+        <!-- modal-footer end -->
+      </div>
+      <!-- modal-container end -->
+    </div>
+    <!-- modal-dialog end -->
+  </div>
+  <!-- facalty-modal end -->
+  <!--placement-modal -->
+        <div class="modal fade" id="placement-modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content" id="modal-container">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" id="modal-heading">100% placement assistance</h4>
+                    </div>
+                    <!-- modal header end -->
+                    <div class="modal-body" id="modal-text">
+                        <p>
+                            Nullam pretium enim tempus tincidunt varius. Vestibulu m velit augue, commodo ac placerat et, viverra id mi.
+                            Cu viderer praesent sed, ex vis splendide percipitur. Nec et amet legere quidam. Ea unum fugit putent nam, 
+                            eam quod nominati ne, simul aperiri adolescens qui ne. Et vel elit nostrud, in stet posse dolor mei. Ad eos vocent hendrerit.
+                        </p>
+                    </div>
+                    <!-- modal-text end -->
+                    <div class="modal-footer" id="modal-footer">
+                        <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                    </div>
+                    <!-- modal-footer end -->
+                </div>
+                <!-- modal-container end -->
+            </div>
+            <!-- modal-dialog end -->
+        </div>
+        <!-- placement-modal end -->
+
+        <!-- project-modal -->
+  <div class="modal fade" id="project-modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" id="modal-container">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id="modal-heading">Live Projects for you profile</h4>
+        </div>
+        <!-- modal-header end -->
+        <div class="modal-body" id="modal-text">
+          <p>
+              Cras aliquam, lacus sed venenatis accumsan, nunc lorem sodales urna, ac fringilla leo metus interdum risus. 
+              Sit habemus apeirian consetetur te, ei quod clita aliquam ius. Et vim ullum essent fabellas. Te vim aeque 
+              vituperata scripserit, equidem quaerendum persequeris sea ad.
+        </p>
+        </div>
+        <!-- modal-text end -->
+        <div class="modal-footer" id="modal-footer">
+          <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+        </div>
+        <!-- modal-footer end -->
+      </div>
+      <!-- modal-container end -->
+    </div>
+    <!-- modal-dialog end -->
+  </div>
+  <!-- project-modal end -->
+   <!-- sign in Modal start -->
+   <div class="modal fade" id="login-modal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content" style="text-align: left; font-size: 1.5em;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Log into your account</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-success" id="modal-button" style="font-size: 1em;">Login</button>
+  </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal" id="modal-button" style="font-size: 1em; border: 1px solid red; color: red;">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-- sign in Modal end --> 
+  
+  
+    <!-- sign up Modal start -->
+   <div class="modal fade" id="signup-modal" role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content" style="text-align: left; font-size: 1.5em;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">New Here?<small>(Creat Your Account for free)</small></h4>
+        </div>
+        <div class="modal-body">
+          <form role="form" name="form" id="signup" method="post" action="#">
+    <div class="form-group">
+     <label for="email">Your Name:</label>
+      <input type="name" class="form-control" name="name" id="signupName" placeholder="Jhon Doe" required>
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" name="email" id="signUpEmail" placeholder="Enter email" required>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" name="password" id="signUpPwd1" placeholder="Enter password" required>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Re-enter Password:</label>
+      <input type="password" class="form-control" id="signUpPwd2" name="rePassword" placeholder="Re-enter password" required>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" checked> Cheak to get latest news from our website</label>
+    </div>
+    <button type="submit" name="submit" class="btn btn-success" id="modal-button" style="font-size: 1em;">Register</button>
+  </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal" id="modal-button" style="font-size: 1em; border: 1px solid red; color: red;">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-- sign up Modal end -->
+
+	</div>
+    <!-- container-fluid ends -->
+</body>
+</html>

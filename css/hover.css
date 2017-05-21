@@ -1,0 +1,70 @@
+#main-menu li a:hover{
+    color: #02b3e4;
+    transition: 500ms;  
+}
+#user :hover{
+    background-color: white;
+    transition: 500ms;  
+}
+#banner-first-btn:hover{
+    color: #02b3e4;
+    background-color: white;
+    transition: 500ms;
+    box-shadow: 0.25em 0.25em 1em #888888;
+}
+#banner-second-btn:hover{
+    color: white;
+    background-color: #02b3e4;
+    transition: 500ms;
+    box-shadow: 0.25em 0.25em 1em #888888;
+}
+#app-right-container li a:hover{
+    text-decoration: none;
+}
+#app-right-container li a:hover span{
+    background-color: #1e88e5;
+    color: white;
+    transition: 500ms;
+}
+#three-icon-sec-container div:hover{
+    color: #0d47a1;
+    background-color: #f3f3f3;
+    transition: 1000ms;
+}
+#blog-button:hover{
+    color: white;
+    background-color: #1565c0;
+    text-decoration: none;
+    transition: 500ms;
+    box-shadow: 0.25em 0.25em 1em #888888;
+}
+#recruitSec ul li img:hover{
+    opacity: 0.5;
+    transition: 500ms;
+}
+#social-links li a:hover{
+    color: white;
+    transition: 500ms;
+    text-decoration: none;
+    opacity: 0.75;
+}
+#modal-button:hover{
+    color: white;
+    background-color: #1565c0;
+    box-shadow: 0.25em 0.25em 1em #888888;
+    transition: 500ms;
+}
+/*------ home page hover end --*/
+/*---- courses hover --*/
+#course-details:hover{
+    transition: 500ms;
+    box-shadow: 0.15em 0.15em 1.5em #888;    
+    border: 1px solid #1565c0;
+}
+#course-button:hover{
+    color: white;
+    background-color: #1565c0;
+    text-decoration: none;
+    transition: 500ms;
+    box-shadow: 0.25em 0.25em 0.5em #888888;
+}
